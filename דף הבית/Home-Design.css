@@ -1,0 +1,71 @@
+body{
+    font-family: Calibri Light; 
+    text-align: center;
+    background-image: url(./תמונות/רקע.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    animation-name: img;
+    animation-duration: 20s;
+  }
+  @keyframes img {
+    0%   {background-image: url(./תמונות/רקע.jpg);}
+    39%  {background-image: url(./תמונות/רקע\ 2.jpg);}
+    45%  {background-image: url(./תמונות/רקע.jpg);}
+    50%  {background-image: url(./תמונות/רקע\ 2.jpg);}
+    100% {background-image: url(./תמונות/רקע.jpg);}
+  }
+  header{
+    background-color: #6c4e4e;
+  }
+  .navbar a {
+    color: #b29696;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:6vh;
+  }
+  a:link, a:visited {
+    color: white;
+    text-align: center;
+    display: inline-block; 
+  }
+  a:hover, a:active {
+    background-color:rgb(238, 159, 146);
+  }
+  ::-webkit-scrollbar {
+      width: 18px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #E7E5E8;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #6c4e4e;
+      border: 2px solid #E7E5E8;
+      border-radius: 40%;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #b29696;
+   }
+  iframe{
+    /* border: none; */
+    width: 92vw;
+    height: 170vh; 
+    margin-top: 0vh;
+    margin-left: 3vw; 
+    margin-right: 2dvh;
+    border: none;
+  }
+  
+  footer{
+    padding: 100px;
+    text-align: center;
+    background: #6c4e4e;
+    background-position-y: center;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    color: white;
+    font-size:4vh;
+    font-family: Calibri Light;
+  }
